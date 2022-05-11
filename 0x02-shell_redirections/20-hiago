@@ -1,2 +1,2 @@
 #!/bin/bash
-tr --ignore-case -d c
+tr -d "cC"
