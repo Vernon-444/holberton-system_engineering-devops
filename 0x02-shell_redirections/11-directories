@@ -1,0 +1,2 @@
+#!/bin/bash
+find <DirName> -type d | wc -l
