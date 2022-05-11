@@ -1,2 +1,2 @@
 #!/bin/bash
-emacs -p /etc/passwd /etc/hosts
+cat -p /etc/passwd /etc/hosts
