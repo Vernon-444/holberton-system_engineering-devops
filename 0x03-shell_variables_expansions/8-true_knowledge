@@ -1,1 +1,2 @@
 #!/bin/bash
+printf expr TRUEKNOWLEDGE + 128
