@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#this uses a while function instead of for
+#this copies Best School 10 times using while
 while i in {1..10};
 do echo "Best School";
    i=$((i + 1));
