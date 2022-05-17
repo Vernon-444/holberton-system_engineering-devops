@@ -1,2 +1,6 @@
 #!/usr/bin/env bash
-while i -le 10; do echo "Best School"; done
+#this uses a while function instead of for
+while i -le 10;
+do echo "Best School";
+i=$((i++))
+done
