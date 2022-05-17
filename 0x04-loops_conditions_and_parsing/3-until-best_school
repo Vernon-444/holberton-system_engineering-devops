@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-#this uses until for a loop
-i=0
-until [ $i = 10 ]
-do
-    echo "Best School";
-    i=$((i + 1));
-done
