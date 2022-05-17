@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-while i in {1..10}; do echo "Best School"; done
+while i -le 10; do echo "Best School"; done
