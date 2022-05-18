@@ -2,4 +2,3 @@
 #this script stops the infinite loop of 4-to_infinity_and_beyond
 i=$(pidof ./4-to_infinity_and_beyond)
 kill "$i"
-
