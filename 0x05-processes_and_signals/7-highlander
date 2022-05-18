@@ -1,0 +1,8 @@
+#!/user/bin/env bash
+#this script loops indef. and outputs when receiving a sigterm signal
+i=0
+until [ $i -eq  1 ]
+do
+    echo "To infinity and beyond"
+    
+done
