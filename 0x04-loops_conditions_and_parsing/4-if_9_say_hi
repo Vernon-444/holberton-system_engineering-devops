@@ -1,9 +1,13 @@
 #!/usr/bin/env bash
-while i < 10
+#this uses while and an if condition
+i=0
+while [ $i -le 10 ]
 do
-    if i = 9
-do
-    echo "hi"
+    if [ $i -eq 9 ]
+       then
+    echo "Hi";
     else
-	echo "Best School"
+	echo "Best School";
+    fi
+    i=$((i + 1));
 done
