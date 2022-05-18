@@ -2,7 +2,7 @@
 #clock function that displays time for 12h59m
 i=0
 h=0
-echo "Hour: $h"; echo "$i";
+echo "Hour: $h";
 while [ $h -lt 12 ]
 do
     i=$((i + 1));
