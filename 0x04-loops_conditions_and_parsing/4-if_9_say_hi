@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #this uses while and an if condition
-i=0
+i=1
 while [ $i -le 10 ]
 do
     if [ $i -eq 9 ]
